@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "8f274787-e544-45a5-8ae6-6836686b2560",
+		"name": "NuriCollections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Blocks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/block/getAllBlocks/1573858800000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"block",
+						"getAllBlocks",
+						"1573858800000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Block Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/block/getABlock/0000000000000000000e0cc8e179ac2204cb2c10f737325795bc8bece2ba13f7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"block",
+						"getABlock",
+						"0000000000000000000e0cc8e179ac2204cb2c10f737325795bc8bece2ba13f7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
