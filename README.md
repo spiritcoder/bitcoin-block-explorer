@@ -1,5 +1,3 @@
-# Apeh-Ikechukwu-Coding-Challenge
-
 #This project is made up of two parts
 1. The backend and
 2. The frontend
